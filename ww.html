@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>West Wing Medchal | ARR PROJECTS</title>
+
+  <meta name="description"
+    content="West Wing Medchal by ARR PROJECTS - Premium semi-commercial and residential spaces with luxury construction quality and prime connectivity." />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <style>
+    * {
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.65);
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800">
+
+  <!-- Navbar -->
+  <header class="fixed top-0 left-0 w-full bg-white/95 backdrop-blur-md shadow-md z-50">
+
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+
+      <div>
+        <h1 class="text-2xl font-bold">ARR PROJECTS</h1>
+        <p class="text-xs text-gray-500">Building Your Dream Spaces</p>
+      </div>
+
+      <nav class="hidden md:flex gap-8 text-sm font-medium">
+        <a href="#about" class="hover:text-orange-500">About</a>
+        <a href="#highlights" class="hover:text-orange-500">Highlights</a>
+        <a href="#amenities" class="hover:text-orange-500">Amenities</a>
+        <a href="#visit" class="hover:text-orange-500">Site Visit</a>
+        <a href="#contact" class="hover:text-orange-500">Contact</a>
+      </nav>
+
+      <button onclick="sendScheduleWhatsApp()"
+        class="hidden md:block bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-full font-semibold transition">
+        Schedule Visit
+      </button>
+
+    </div>
+  </header>
+
+
+  <!-- Hero -->
+  <section class="relative h-screen flex items-center justify-center text-center overflow-hidden">
+
+    <img
+      src="img/semi residential.jpg"
+      class="absolute inset-0 w-full h-full object-cover"
+      alt="West Wing Medchal">
+
+    <div class="overlay absolute inset-0"></div>
+
+    <div class="relative z-10 px-6 max-w-5xl">
+
+      <p class="uppercase tracking-[6px] text-orange-400 text-sm mb-4">
+        ARR PROJECTS
+      </p>
+
+      <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+        WEST WING
+        <br>
+        <span class="text-orange-400">MEDCHAL</span>
+      </h1>
+
+      <p class="text-gray-200 text-lg md:text-xl leading-relaxed mb-10">
+        Premium semi-commercial and residential project with modern architecture,
+        elegant construction quality and excellent connectivity in Medchal.
+      </p>
+
+      <div class="flex flex-col sm:flex-row justify-center gap-5">
+
+        <button onclick="sendScheduleWhatsApp()"
+          class="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-full font-semibold transition">
+          Schedule Site Visit
+        </button>
+
+        <a href="tel:+919866851081"
+          class="border border-white hover:bg-white hover:text-black text-white px-8 py-4 rounded-full font-semibold transition">
+          Call Now
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- About -->
+  <section id="about" class="py-24 bg-white">
+
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center px-6">
+
+      <div>
+
+        <p class="uppercase tracking-[4px] text-orange-500 text-sm font-semibold mb-4">
+          About West Wing
+        </p>
+
+        <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+          Premium Semi Commercial
+          & Residential Spaces
+        </h2>
+
+        <p class="text-gray-600 text-lg leading-relaxed mb-6">
+          West Wing by ARR PROJECTS is a premium development located in Medchal,
+          designed for modern living and commercial opportunities.
+        </p>
+
+        <p class="text-gray-600 text-lg leading-relaxed mb-8">
+          The project combines elegant architecture, quality construction and
+          excellent connectivity to create an ideal investment and lifestyle destination.
+        </p>
+
+        <button onclick="sendWhatsApp()"
+          class="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-semibold transition">
+          Enquire On WhatsApp
+        </button>
+
+      </div>
+
+      <div>
+
+        <img
+          src="img/semi residential.jpg"
+          class="rounded-[40px] shadow-2xl"
+          alt="West Wing Building">
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Gallery -->
+  <section id="gallery" class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <p class="uppercase tracking-[4px] text-orange-500 text-sm font-semibold mb-4">
+          Project Gallery
+        </p>
+        <h2 class="text-4xl md:text-5xl font-bold">
+          Explore Our Work
+        </h2>
+      </div>
+
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+       
+        <div class="overflow-hidden rounded-[30px] shadow-xl">
+          <img src="img/semi%20residential.jpg" alt="Semi Residential" class="w-full h-72 object-cover transition duration-300 hover:scale-105">
+        </div>
+        <div class="overflow-hidden rounded-[30px] shadow-xl">
+          <img src="img/semi%20commercial.jpg" alt="Semi Commercial" class="w-full h-72 object-cover transition duration-300 hover:scale-105">
+        </div>
+        <div class="overflow-hidden rounded-[30px] shadow-xl">
+          <img src="img/commercial.jpg" alt="Commercial Project" class="w-full h-72 object-cover transition duration-300 hover:scale-105">
+        </div>
+      
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Highlights -->
+  <section id="highlights" class="py-24 bg-gray-100">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="text-center mb-16">
+
+        <p class="uppercase tracking-[4px] text-orange-500 text-sm font-semibold mb-4">
+          Project Highlights
+        </p>
+
+        <h2 class="text-4xl md:text-5xl font-bold">
+          Why Choose West Wing?
+        </h2>
+
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="card bg-white rounded-[30px] p-8 shadow-xl transition duration-300">
+          <div class="text-5xl mb-6">🏢</div>
+          <h3 class="text-2xl font-bold mb-4">Semi Commercial Spaces</h3>
+          <p class="text-gray-600 leading-relaxed">
+            Premium commercial spaces designed for modern businesses and investment opportunities.
+          </p>
+        </div>
+
+        <div class="card bg-white rounded-[30px] p-8 shadow-xl transition duration-300">
+          <div class="text-5xl mb-6">📍</div>
+          <h3 class="text-2xl font-bold mb-4">Prime Medchal Location</h3>
+          <p class="text-gray-600 leading-relaxed">
+            Excellent connectivity with growing infrastructure and easy accessibility.
+          </p>
+        </div>
+
+        <div class="card bg-white rounded-[30px] p-8 shadow-xl transition duration-300">
+          <div class="text-5xl mb-6">✨</div>
+          <h3 class="text-2xl font-bold mb-4">Premium Construction</h3>
+          <p class="text-gray-600 leading-relaxed">
+            Quality materials and elegant architecture delivering modern lifestyle spaces.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Amenities -->
+  <section id="amenities" class="py-24 bg-white">
+
+    <div class="max-w-7xl mx-auto px-6 text-center">
+
+      <p class="uppercase tracking-[4px] text-orange-500 text-sm font-semibold mb-4">
+        Amenities
+      </p>
+
+      <h2 class="text-4xl md:text-5xl font-bold mb-16">
+        Modern Lifestyle Features
+      </h2>
+
+      <div class="grid md:grid-cols-4 gap-8">
+
+        <div class="bg-gray-100 rounded-[30px] p-8 shadow-lg">
+          <div class="text-5xl mb-5">🚗</div>
+          <h3 class="font-bold text-xl">Parking Area</h3>
+        </div>
+
+        <div class="bg-gray-100 rounded-[30px] p-8 shadow-lg">
+          <div class="text-5xl mb-5">🛡️</div>
+          <h3 class="font-bold text-xl">Security</h3>
+        </div>
+
+        <div class="bg-gray-100 rounded-[30px] p-8 shadow-lg">
+          <div class="text-5xl mb-5">🏢</div>
+          <h3 class="font-bold text-xl">Commercial Spaces</h3>
+        </div>
+
+        <div class="bg-gray-100 rounded-[30px] p-8 shadow-lg">
+          <div class="text-5xl mb-5">📍</div>
+          <h3 class="font-bold text-xl">Prime Connectivity</h3>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Site Visit -->
+  <section id="visit" class="py-24 bg-black text-white text-center">
+
+    <div class="max-w-5xl mx-auto px-6">
+
+      <p class="uppercase tracking-[4px] text-orange-400 text-sm font-semibold mb-4">
+        Schedule Site Visit
+      </p>
+
+      <h2 class="text-4xl md:text-5xl font-bold mb-6">
+        Visit West Wing Today
+      </h2>
+
+      <p class="text-gray-300 text-lg leading-relaxed mb-10">
+        Discover premium construction quality and modern spaces with ARR PROJECTS.
+      </p>
+
+      <button onclick="sendScheduleWhatsApp()"
+        class="bg-green-500 hover:bg-green-600 text-white px-10 py-5 rounded-full text-lg font-semibold transition">
+        Contact On WhatsApp
+      </button>
+
+    </div>
+  </section>
+
+
+  <!-- Contact -->
+  <section id="contact" class="py-24 bg-gray-100">
+
+    <div class="max-w-7xl mx-auto px-6 text-center">
+
+      <p class="uppercase tracking-[4px] text-orange-500 text-sm font-semibold mb-4">
+        Contact ARR PROJECTS
+      </p>
+
+      <h2 class="text-4xl md:text-5xl font-bold mb-6">
+        Let’s Build Your Dream Space
+      </h2>
+
+      <div class="space-y-5 text-lg">
+
+        <p>
+          💬 +91 9866851081
+        </p>
+
+        <p>
+          📍 Medchal, Hyderabad
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="bg-black text-white py-10 text-center">
+
+    <h3 class="text-2xl font-bold mb-3">
+      ARR PROJECTS
+    </h3>
+
+    <p class="text-gray-400">
+      Building Your Dream Homes & Workspaces.
+    </p>
+
+  </footer>
+
+
+  <!-- WhatsApp Floating Button -->
+  <button onclick="sendWhatsApp()"
+    class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 w-16 h-16 rounded-full shadow-2xl flex items-center justify-center z-50">
+
+    <img
+      src="img/whatsapp-logo.png"
+      class="w-8 h-8"
+      alt="WhatsApp">
+
+  </button>
+
+
+  <!-- WhatsApp Script -->
+  <script>
+
+    function sendWhatsApp() {
+
+      const text =
+        `Hello ARR PROJECTS ✨
+Your projects look impressive.
+I would like to know more about West Wing Medchal, amenities, pricing and site visit process.`;
+
+      const url =
+        `https://api.whatsapp.com/send/?phone=919866851081&text=${encodeURIComponent(text)}&type=phone_number&app_absent=0`;
+
+      window.open(url, '_blank');
+    }
+
+    function sendScheduleWhatsApp() {
+
+      const text =
+        `Hello ARR PROJECTS,
+We would like to schedule a visit.`;
+
+      const url =
+        `https://api.whatsapp.com/send/?phone=919866851081&text=${encodeURIComponent(text)}&type=phone_number&app_absent=0`;
+
+      window.open(url, '_blank');
+    }
+
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Green Park Villas Shamirpet | ARR PROJECTS</title>
+
+  <meta name="description"
+    content="Green Park Villas by ARR PROJECTS - Premium luxury villas in Shamirpet with elegant architecture, premium amenities and peaceful living." />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <style>
+    * {
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.65);
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+  </style>
+
+</head>
+
+<body class="bg-white text-gray-800">
+
+  <!-- Navbar -->
+  <header class="fixed top-0 left-0 w-full bg-white/95 backdrop-blur-md shadow-md z-50">
+
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+
+      <div>
+        <h1 class="text-2xl font-bold">ARR PROJECTS</h1>
+        <p class="text-xs text-gray-500">Building Your Dream Spaces</p>
+      </div>
+
+      <nav class="hidden md:flex gap-8 text-sm font-medium">
+        <a href="#about" class="hover:text-orange-500">About</a>
+        <a href="#highlights" class="hover:text-orange-500">Highlights</a>
+        <a href="#amenities" class="hover:text-orange-500">Amenities</a>
+        <a href="#visit" class="hover:text-orange-500">Site Visit</a>
+        <a href="#contact" class="hover:text-orange-500">Contact</a>
+        <a href="green-park-broucher (1).pdf" target="_blank" rel="noopener" class="hover:text-orange-500">Brochure</a>
+      </nav>
+
+      <button onclick="sendScheduleWhatsApp()"
+        class="hidden md:block bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-full font-semibold transition">
+        Schedule Visit
+      </button>
+
+    </div>
+  </header>
+
+
+  <!-- Hero Section -->
+  <section class="relative h-screen flex items-center justify-center text-center overflow-hidden">
+
+    <img
+      src="https://images.unsplash.com/photo-1605146769289-440113cc3d00?q=80&w=1800&auto=format&fit=crop"
+      class="absolute inset-0 w-full h-full object-cover"
+      alt="Green Park Villas">
+
+    <div class="overlay absolute inset-0"></div>
+
+    <div class="relative z-10 px-6 max-w-5xl">
+
+      <p class="uppercase tracking-[6px] text-orange-400 text-sm mb-4">
+        ARR PROJECTS
+      </p>
+
+      <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+        GREEN PARK
+        <br>
+        <span class="text-orange-400">VILLAS</span>
+      </h1>
+
+      <p class="text-gray-200 text-lg md:text-xl leading-relaxed mb-10">
+        Premium luxury villas in Shamirpet designed with modern architecture,
+        spacious layouts and world-class lifestyle amenities.
+      </p>
+
+      <div class="flex flex-col sm:flex-row justify-center gap-5">
+
+        <button onclick="sendScheduleWhatsApp()"
+          class="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-full font-semibold transition">
+          Schedule Site Visit
+        </button>
+
+        <a href="tel:+919866851081"
+          class="border border-white hover:bg-white hover:text-black text-white px-8 py-4 rounded-full font-semibold transition">
+          Call Now
+        </a>
+
+        <a href="green-park-broucher (1).pdf" target="_blank" rel="noopener"
+          class="bg-white text-black hover:bg-gray-100 px-8 py-4 rounded-full font-semibold transition">
+          Open Brochure
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Brochure -->
+  <section id="brochure" class="py-24 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <p class="uppercase tracking-[4px] text-orange-500 text-sm font-semibold mb-4">
+            Brochure
+          </p>
+          <h2 class="text-4xl md:text-5xl font-bold mb-6">
+            Green Park Villas Brochure Details
+          </h2>
+          <p class="text-gray-600 text-lg leading-relaxed mb-8 max-w-3xl">
+            The brochure captures Green Park Villas as a premium villa destination with modern design, spacious floor plans, and smart living amenities. It includes full project information, location advantages, and the complete list of lifestyle features for this luxury gated community.
+          </p>
+
+          <div class="grid sm:grid-cols-2 gap-6 mb-10 text-left">
+            <div class="rounded-[30px] bg-white p-6 shadow-sm">
+              <h3 class="text-xl font-semibold mb-4">Project Highlights</h3>
+              <ul class="space-y-3 text-gray-600 text-sm">
+                <li>Prime Shamirpet address near key destinations</li>
+                <li>Luxury villas with modern architecture</li>
+                <li>Expansive private gardens and terraces</li>
+                <li>Secure gated community layout</li>
+              </ul>
+            </div>
+            <div class="rounded-[30px] bg-white p-6 shadow-sm">
+              <h3 class="text-xl font-semibold mb-4">Amenities Included</h3>
+              <ul class="space-y-3 text-gray-600 text-sm">
+                <li>Clubhouse, indoor gym and party hall</li>
+                <li>Swimming pool, kids play zone and lawn</li>
+                <li>Walking & jogging trails with seating areas</li>
+                <li>Round-the-clock security and concierge support</li>
+              </ul>
+            </div>
+          </div>
+
+          <a href="green-park-broucher (1).pdf" target="_blank" rel="noopener"
+            class="inline-flex items-center justify-center bg-orange-500 hover:bg-orange-600 text-white px-10 py-4 rounded-full font-semibold transition">
+            Open Brochure
+          </a>
+        </div>
+
+        <div class="space-y-6">
+          <img src="img/green par.jpg" alt="Green Park Villas" class="rounded-[30px] shadow-2xl w-full h-96 object-cover">
+          <img src="img/villas.jpg" alt="Amenities" class="rounded-[30px] shadow-2xl w-full h-96 object-cover">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- About -->
+  <section id="about" class="py-24 bg-white">
+
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center px-6">
+
+      <div>
+
+        <p class="uppercase tracking-[4px] text-orange-500 text-sm font-semibold mb-4">
+          About Green Park Villas
+        </p>
+
+        <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+          Luxury Villas
+          In Peaceful Shamirpet
+        </h2>
+
+        <p class="text-gray-600 text-lg leading-relaxed mb-6">
+          Green Park Villas by ARR PROJECTS is a premium gated villa project
+          designed for luxury living with elegant architecture and premium quality construction.
+        </p>
+
+        <p class="text-gray-600 text-lg leading-relaxed mb-8">
+          Located in the peaceful surroundings of Shamirpet,
+          Green Park Villas offers spacious layouts, premium amenities
+          and excellent connectivity.
+        </p>
+
+        <button onclick="sendWhatsApp()"
+          class="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-semibold transition">
+          Enquire On WhatsApp
+        </button>
+
+      </div>
+
+      <div>
+
+        <img
+  src="img/green par.jpg"
+  class="w-full h-[600px] object-cover rounded-[40px] shadow-2xl"
+  alt="Luxury Villa">
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Gallery -->
+  <section id="gallery" class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <p class="uppercase tracking-[4px] text-orange-500 text-sm font-semibold mb-4">
+          Project Gallery
+        </p>
+        <h2 class="text-4xl md:text-5xl font-bold">
+          Explore Our Work
+        </h2>
+      </div>
+
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        
+        <div class="overflow-hidden rounded-[30px] shadow-xl">
+          <img src="img/villas.jpg" alt="Villa Collection" class="w-full h-72 object-cover transition duration-300 hover:scale-105">
+        </div>
+        <div class="overflow-hidden rounded-[30px] shadow-xl">
+          <img src="img/villa by arr.jpg" alt="Semi Residential" class="w-full h-72 object-cover transition duration-300 hover:scale-105">
+        </div>
+        <div class="overflow-hidden rounded-[30px] shadow-xl">
+          <img src="img/road.jpg" alt="Semi Commercial" class="w-full h-72 object-cover transition duration-300 hover:scale-105">
+        </div>
+        <div class="overflow-hidden rounded-[30px] shadow-xl">
+          <img src="img/layout.jpg" alt="Commercial Project" class="w-full h-72 object-cover transition duration-300 hover:scale-105">
+        </div>
+        <div class="overflow-hidden rounded-[30px] shadow-xl">
+          <img src="img/construction.jpg" alt="Construction Work" class="w-full h-72 object-cover transition duration-300 hover:scale-105">
+        </div>
+        <div class="overflow-hidden rounded-[30px] shadow-xl">
+          <img src="img/villa 3.jpg" alt="Construction Work" class="w-full h-72 object-cover transition duration-300 hover:scale-105">
+        </div>
+        <div class="overflow-hidden rounded-[30px] shadow-xl">
+          <img src="img/villa construction.jpg" alt="Construction Work" class="w-full h-72 object-cover transition duration-300 hover:scale-105">
+        </div>
+        <div class="overflow-hidden rounded-[30px] shadow-xl">
+          <img src="img/villa construction2.jpg" alt="Construction Work" class="w-full h-72 object-cover transition duration-300 hover:scale-105">
+        </div>
+        <div class="overflow-hidden rounded-[30px] shadow-xl">
+          <img src="img/villa construction 3.jpg" alt="Construction Work" class="w-full h-72 object-cover transition duration-300 hover:scale-105">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Highlights -->
+  <section id="highlights" class="py-24 bg-gray-100">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="text-center mb-16">
+
+        <p class="uppercase tracking-[4px] text-orange-500 text-sm font-semibold mb-4">
+          Project Highlights
+        </p>
+
+        <h2 class="text-4xl md:text-5xl font-bold">
+          Why Choose Green Park Villas?
+        </h2>
+
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="card bg-white rounded-[30px] p-8 shadow-xl transition duration-300">
+
+          <div class="text-5xl mb-6">🏡</div>
+
+          <h3 class="text-2xl font-bold mb-4">
+            Luxury Villas
+          </h3>
+
+          <p class="text-gray-600 leading-relaxed">
+            Elegant villa designs with spacious interiors and premium lifestyle features.
+          </p>
+
+        </div>
+
+        <div class="card bg-white rounded-[30px] p-8 shadow-xl transition duration-300">
+
+          <div class="text-5xl mb-6">🌳</div>
+
+          <h3 class="text-2xl font-bold mb-4">
+            Peaceful Environment
+          </h3>
+
+          <p class="text-gray-600 leading-relaxed">
+            Located in serene Shamirpet surroundings with fresh atmosphere and greenery.
+          </p>
+
+        </div>
+
+        <div class="card bg-white rounded-[30px] p-8 shadow-xl transition duration-300">
+
+          <div class="text-5xl mb-6">✨</div>
+
+          <h3 class="text-2xl font-bold mb-4">
+            Premium Construction
+          </h3>
+
+          <p class="text-gray-600 leading-relaxed">
+            Built with superior quality materials and elegant modern architecture.
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Amenities -->
+  <section id="amenities" class="py-24 bg-white">
+
+    <div class="max-w-7xl mx-auto px-6 text-center">
+
+      <p class="uppercase tracking-[4px] text-orange-500 text-sm font-semibold mb-4">
+        Amenities
+      </p>
+
+      <h2 class="text-4xl md:text-5xl font-bold mb-16">
+        Premium Lifestyle Amenities
+      </h2>
+
+      <div class="grid md:grid-cols-4 gap-8">
+
+        <div class="bg-gray-100 rounded-[30px] p-8 shadow-lg">
+
+          <div class="text-5xl mb-5">🌳</div>
+
+          <h3 class="font-bold text-xl">
+            Landscaped Gardens
+          </h3>
+
+        </div>
+
+        <div class="bg-gray-100 rounded-[30px] p-8 shadow-lg">
+
+          <div class="text-5xl mb-5">🚗</div>
+
+          <h3 class="font-bold text-xl">
+            Parking Area
+          </h3>
+
+        </div>
+
+        <div class="bg-gray-100 rounded-[30px] p-8 shadow-lg">
+
+          <div class="text-5xl mb-5">🛡️</div>
+
+          <h3 class="font-bold text-xl">
+            24/7 Security
+          </h3>
+
+        </div>
+
+        <div class="bg-gray-100 rounded-[30px] p-8 shadow-lg">
+
+          <div class="text-5xl mb-5">🏡</div>
+
+          <h3 class="font-bold text-xl">
+            Premium Villas
+          </h3>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Site Visit -->
+  <section id="visit" class="py-24 bg-black text-white text-center">
+
+    <div class="max-w-5xl mx-auto px-6">
+
+      <p class="uppercase tracking-[4px] text-orange-400 text-sm font-semibold mb-4">
+        Schedule Site Visit
+      </p>
+
+      <h2 class="text-4xl md:text-5xl font-bold mb-6">
+        Visit Green Park Villas Today
+      </h2>
+
+      <p class="text-gray-300 text-lg leading-relaxed mb-10">
+        Experience luxury villa living and premium construction quality with ARR PROJECTS.
+      </p>
+
+      <button onclick="sendScheduleWhatsApp()"
+        class="bg-green-500 hover:bg-green-600 text-white px-10 py-5 rounded-full text-lg font-semibold transition">
+        Contact On WhatsApp
+      </button>
+
+    </div>
+  </section>
+
+
+  <!-- Contact -->
+  <section id="contact" class="py-24 bg-gray-100">
+
+    <div class="max-w-7xl mx-auto px-6 text-center">
+
+      <p class="uppercase tracking-[4px] text-orange-500 text-sm font-semibold mb-4">
+        Contact ARR PROJECTS
+      </p>
+
+      <h2 class="text-4xl md:text-5xl font-bold mb-6">
+        Let’s Build Your Dream Villa
+      </h2>
+
+      <div class="space-y-5 text-lg">
+
+        <p>
+          💬 +91 9866851081
+        </p>
+
+        <p>
+          📍 Shamirpet, Hyderabad
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="bg-black text-white py-10 text-center">
+
+    <h3 class="text-2xl font-bold mb-3">
+      ARR PROJECTS
+    </h3>
+
+    <p class="text-gray-400">
+      Building Your Dream Homes & Workspaces.
+    </p>
+
+  </footer>
+
+
+  <!-- WhatsApp Floating Button -->
+  <button onclick="sendWhatsApp()"
+    class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 w-16 h-16 rounded-full shadow-2xl flex items-center justify-center z-50">
+
+    <img
+      src="img/whatsapp-logo.png"
+      class="w-8 h-8"
+      alt="WhatsApp">
+
+  </button>
+
+
+  <!-- WhatsApp Script -->
+  <script>
+
+    function sendWhatsApp() {
+
+      const text =
+        `Hello ARR PROJECTS ✨
+Your projects look impressive.
+I would like to know more about Green Park Villas, amenities, pricing and site visit process.`;
+
+      const url =
+        `https://api.whatsapp.com/send/?phone=919866851081&text=${encodeURIComponent(text)}&type=phone_number&app_absent=0`;
+
+      window.open(url, '_blank');
+    }
+
+    function sendScheduleWhatsApp() {
+
+      const text =
+        `Hello ARR PROJECTS,
+We would like to schedule a visit.`;
+
+      const url =
+        `https://api.whatsapp.com/send/?phone=919866851081&text=${encodeURIComponent(text)}&type=phone_number&app_absent=0`;
+
+      window.open(url, '_blank');
+    }
+
+  </script>
+
+</body>
+
+</html>
